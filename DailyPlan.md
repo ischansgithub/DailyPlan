@@ -7,10 +7,32 @@
 - [x] CS231n：方向传播
 - [ ] 学习tf-slim 怎么进行迁移训练 
 
-2020.04.07
+### 2020.04.09
+
+- [ ] yolo代码中添加计算AP并打印
+
+- [ ] 原著作YOLO有没有用ResNet的backbone?
+- [ ] ResNet50是50个卷积层的意思吗？
+- [ ] yolov3_tcl中的block[3, 4, 5, 5]代表什么意思呢？对应ResNet多少呢？
+- [ ] ResNet层数的学习
+- [ ] ResNet原理学习 -> ResNet层数计算 ->  yolov3_tcl中的block[3, 4, 5, 5]层数计算
+
+### 2020.04.08
+
+- [x] Average Precison(缺陷AP的计算)学习
+- [x] Log分析脚本添加计算输出AP
+- [x] 整理TCL-ADC项目的资料
+- [ ] 实习笔试
+
+### 2020.04.07
 
 - [x] 缺陷检测与目标检测论文的阅读调研
-- [ ] leetcode每日一题
+- [x] leetcode每日一题
+- [ ] 原著作YOLO有没有用ResNet的backbone?
+- [ ] ResNet50是50个卷积层的意思吗？
+- [ ] yolov3_tcl中的block[3, 4, 5, 5]代表什么意思呢？对应ResNet多少呢？
+- [ ] ResNet层数的学习
+- [ ] ResNet原理学习 -> ResNet层数计算 ->  yolov3_tcl中的block[3, 4, 5, 5]层数计算
 
 ### 2020.02.19
 
