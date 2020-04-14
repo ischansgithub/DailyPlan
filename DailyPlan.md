@@ -7,15 +7,20 @@
 - [x] CS231n：方向传播
 - [ ] 学习tf-slim 怎么进行迁移训练 
 
-### 2020.04.010
+### 2020.04.14
 
-- [ ] 手动调整检测模型的标注后加入训练
-- [ ] yolo代码中添加计算AP并打印
-- [ ] 原著作YOLO有没有用ResNet的backbone?
-- [ ] ResNet50是50个卷积层的意思吗？
-- [ ] yolov3_tcl中的block[3, 4, 5, 5]代表什么意思呢？对应ResNet多少呢？
-- [ ] ResNet层数的学习
-- [ ] ResNet原理学习 -> ResNet层数计算 ->  yolov3_tcl中的block[3, 4, 5, 5]层数计算
+- [x] 学习OJ编程题的输入输出
+
+### 2020.04.13
+
+- [x] 手动调整检测模型的标注后加入训练
+- [x] yolo代码中添加计算AP并打印
+- [x] 原著作YOLO有没有用ResNet的backbone?有用过resnet101、resnet152作backbone与darknet53作对比
+- [x] ResNet50是50个卷积层的意思吗？
+- [x] yolov3_tcl中的block[3, 4, 5, 5]代表什么意思呢？对应ResNet多少呢？
+- [x] ResNet层数的学习
+- [x] ResNet原理学习 -> ResNet层数计算 ->  yolov3_tcl中的block[3, 4, 5, 5]层数计算
+- [x] 阅读有关TFT-LCD缺陷的论文，看能不能找到相关的数据集
 
 ### 2020.04.09
 
