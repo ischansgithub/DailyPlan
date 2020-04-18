@@ -2,10 +2,41 @@
 
 待安排
 
-- [ ] 《tensorflow实战》VGGNet
-- [ ] 《tensorflow实战》AlexNet
-- [x] CS231n：方向传播
-- [ ] 学习tf-slim 怎么进行迁移训练 
+- [ ] SSD的运行、学习
+
+- [ ] Faster-RCNN的运行、学习
+
+- [ ] 搞明白yolo_tcl是怎么实现no object图片的检测的，通过loss?
+
+- [ ] 在pytorch-yolov3的基础上实现对无物品图片的检测。https://github.com/eriklindernoren/PyTorch-YOLOv3/pull/335/commits/b716edf2586f2e53903ffb0e0fe63b688b090fdb
+
+- [ ] 《从零开始学yolo》文章学习
+
+  
+
+
+
+### 2020.04.17
+
+- [x] 复盘leetcode:正则表达式匹配,用动态规划做出来 。
+- [x] yolo-pytorch版本的试运行
+- [ ] 电脑换电池
+- [ ] 寻找TFT-LCD的数据集
+
+### 2020.04.16
+
+- [x] 检测模型的日志Log分析脚本的更新优化
+- [x] 计算AP实际上是计算recall-precision分别 为x,y坐标时曲线下方的面积。
+- [ ] sort对字符串的规则
+- [x] 正则表达式的初步学习
+- [x] 华为笔试二道题目用python试做
+- [x] 思考以后做题目要不要用python 
+
+### 2020.04.15
+
+- [x] 检测模型单元测试的准确率、召回率脚本实现
+- [ ] 检测模型的日志Log分析脚本的更新优化
+- [x] 华为实习生笔试
 
 ### 2020.04.14
 
