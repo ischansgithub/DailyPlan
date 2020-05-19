@@ -6,14 +6,62 @@
 - [ ] Faster-RCNN的运行、学习
 - [ ] 搞明白yolo_tcl是怎么实现no object图片的检测的，通过loss?
 - [ ] 在pytorch-yolov3的基础上实现对无物品图片的检测。https://github.com/eriklindernoren/PyTorch-YOLOv3/pull/335/commits/b716edf2586f2e53903ffb0e0fe63b688b090fdb
-- [ ] 《从零开始学yolo》文章学习
 - [ ] **《**Scale-Aware Trident Networks for Object Detection》论文了解
 - [ ] Pytorch-yolov3-Master修改config文件中的输入图片大小，进行重新训练
+- [ ] 持续学习yolo的cfg，结合《从零开始学yolo》文章学习，看能不能自己替换想要的模块
+- [ ] 尝试使用预训练模型finetune PCB数据集
+- [ ] 小论文技术路线：数据增强->各种yolo cfg指标对比-> 
+
+### 2020.05.19
+
+- [x] 根据图片名找到相对应的标注文件另存为
+- [x] trainA/testA的图片按yolo标注，crop成286\*286、256\*256两种子图片存放于trainA_286, trainA_256, testA_286, testA_256
+- [x] trainB : 随机crop4个子图 -> trainB_4_256 ;
+- [x] trainB : 平均crop成12个子图 -> trainB_12_256
+
+- [x] vivo人才测评
+
+### 2020.05.18
+
+- [x] 各种yolo模型在pcb数据集上效果的对比
+- [ ] 遗留问题：kmeans后的anchor训练效果为什么不如原始anchor？
+
+- [x] 杨工所给任务的思路整理
+- [x] PCB数据集数据增强
+
+
+
+### 2020.05.15
+
+- [x] 尝试使用yolov4.cfg和yolov4-relu.cfg。原作者说yolov4-relu的效果更好一点，占用显存与yolov3差不多。但是yolov4.cfg占用的显存是yolov3的三倍
+
+### 2020.05.14
+
+- [x] 测试最优权重的评估的合理性
+- [x] 明白yolo_ultra训练过程中保存的tes_batch0_pred.jpg/test_batch0_gt.jpg/train_batch0.jpg
+- [x] 明白yolo_ultra训练过程中保存的result.txt都代表什么意思
+
+### 2020.05.13
+
+- [x] 注意力机制的了解
+- [x] 学习yolov3_ultra版本的评估方式，保存权重的方式，并运用到ADC项目中，具体是对acc\recall\AP\F1\无缺陷图片分类准确率进行加权计算最终结果来衡量最优权重，有待测试
+- [x] 优化数据集组织脚本、
+- [x] 学习矩形推理、正方形推理
+
+### 2020.05.12
+
+- [ ] 能不能同时画出GT和predict框？
+- [x] PCB缺陷检测论文的研读
+- [x] 模型训练结果的总结、统计、并整理成表格
+- [x] yolov3的cfg文件解析理解
 
 ### 2020.05.11
 
-- [ ] 搞明白输入的img-size参数的意思
-- [ ] 等待训练完毕后，测试效果
+- [x] 修改detect.py，使能够实现对root/cls/下的图片进行推理
+- [x] 搞明白输入的img-size参数的意思
+- [x] 等待训练完毕后，测试效果
+- [x] 训练完毕后，服务器上clone下自己folk 的repo,重新修改，并更新，push
+- [x] 联发科实习生笔试
 
 ### 2020.05.09
 
