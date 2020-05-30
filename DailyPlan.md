@@ -8,9 +8,86 @@
 - [ ] 在pytorch-yolov3的基础上实现对无物品图片的检测。https://github.com/eriklindernoren/PyTorch-YOLOv3/pull/335/commits/b716edf2586f2e53903ffb0e0fe63b688b090fdb
 - [ ] **《**Scale-Aware Trident Networks for Object Detection》论文了解
 - [ ] Pytorch-yolov3-Master修改config文件中的输入图片大小，进行重新训练
-- [ ] 持续学习yolo的cfg，结合《从零开始学yolo》文章学习，看能不能自己替换想要的模块
 - [ ] 尝试使用预训练模型finetune PCB数据集
 - [ ] 小论文技术路线：数据增强->各种yolo cfg指标对比-> 
+- [ ] 检测xml->kmeans有没有错误
+
+### 2020.05.30
+
+- [x] 成功在自己的数据集上运行SSD
+- [x] 尝试用Yolov3原版训练一类缺陷
+- [ ] 和为s的连续正数序列,暴力法外的方法
+
+
+
+### 2020.05.29
+
+- [x] 有gpu了话尝试运行FAST-RCNN、SDD
+
+- [x] 继续训练YOLO-tiny3。
+
+- [x] YOLOV3原版进行ADC数据集的训练
+
+- [ ] #### 和为s的连续正数序列,暴力法外的方法
+
+### 2020.05.28
+
+- [x] 完成开题报告、PPT提交、题目确定事宜
+- [x] 尝试运行FAST-RCNN、SDD
+
+### 2020.05.27
+
+- [x] 二叉树检测是否镜像、输出二叉树镜像题目的迭代法
+- [x] 基于ADC-small8cls    训练YOLO-tiny3
+- [x] 研究yolo各种变形的架构，同时学习如何添加自己的模块
+- [x] ADC-small_8cls数据集有问题，查看一下！
+- [x] 解决为什么git commit 出现的权限问题
+- [x] 了解SE\CBAM，并研读相关论文
+- [ ] ADCturnon代码细读
+
+### 2020.05.26
+
+- [x] 与姚博沟通论文相关事宜。
+- [x] TFT-LCD制程原理了解，华星光电TFT-LCD 缺陷说明阅读
+- [x] 研究yolo3_ultra是不是可以输入无标签数据：TSFAS不训练，输出的框conf很低，可以二分类出来的
+- [x] 整理D13数据为小数据集
+- [x] 并进行YOLO-tiny的重新训练
+- [ ] ADCturnon代码细读
+- [x] 修改开题报告
+- [x] 剑指OFFER：三道EASY题目
+
+### 2020.05.25
+
+- [ ] 剑指offer2题目：二叉树，并尝试用迭代法
+- [x] 配置ubuntu-opencv，并成功运行ADCturnon
+- [x] ADCturnon代码的粗略分块阅读
+- [x] 整合1350->2253->3350->3853->4350->5350图片数据
+- [x] 整理github上的笔记
+- [x] CPP笔记的重新查看学习
+
+### 2020.05.23
+
+- [x] 论文研读
+- [x] 准备开题答辩
+- [x] 搞明白TFT-LCD工作原理
+- [x] 剑指Offer三题
+
+### 2020.05.22
+
+- [x] 招银网络科技提前批申请
+- [x] ADC项目数据清洗
+- [x] 剑指OFFER：面试题21. 调整数组顺序使奇数位于偶数前面、面试题13. 机器人的运动范围
+
+### 2020.05.21
+
+- [x] ADC项目数据清洗、整理、裁减
+- [x] 剑指OFFER:爬楼梯、斐波那契数列、二进制中1的个数、旋转数组的最小值、二进制中的1的个数、矩阵中的路径
+- [x] 整理yolo在pcb-dataset上的实验结果
+
+### 2020.05.20
+
+- [x] 两题二叉树的重建
+- [x] 答辩PPT的制作
 
 ### 2020.05.19
 
