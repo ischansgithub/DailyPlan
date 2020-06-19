@@ -7,18 +7,119 @@
 - [ ] 搞明白yolo_tcl是怎么实现no object图片的检测的，通过loss?
 - [ ] 在pytorch-yolov3的基础上实现对无物品图片的检测。https://github.com/eriklindernoren/PyTorch-YOLOv3/pull/335/commits/b716edf2586f2e53903ffb0e0fe63b688b090fdb
 - [ ] **《**Scale-Aware Trident Networks for Object Detection》论文了解
-- [ ] Pytorch-yolov3-Master修改config文件中的输入图片大小，进行重新训练
-- [ ] 尝试使用预训练模型finetune PCB数据集
 - [ ] 小论文技术路线：数据增强->各种yolo cfg指标对比-> 
 - [ ] 检测xml->kmeans有没有错误
+- [ ] 搞明白分位数的概念和在缺陷分割中的应用
+- [ ] 搞明白检测置信度阈值与mAP计算的关系
+- [ ] https://zhuanlan.zhihu.com/p/31558973:参数的显存占用
+- [ ] https://www.mathworks.com/help/images/understanding-morphological-reconstruction.html   Morphological  Reconstruction原理的理解,写进经历里面。
+- [ ] 尝试使用TSDD中yolo的resnet50 backbone
+
+### 2020.06.19
+
+- [ ] 阅读AttentionGAN论文。缺陷的显著性最低还是最高？
+- [x] 小论文文献引用整理完成
+- [x] 剑指offer 一题
+
+### 2020.06.18
+
+- [x] 继续写小论文，今天争取完成小论文整体初稿
+- [ ] 缺陷的显著性最低还是最高？
+- [x] 剑指offer 一题
+
+### 2020.06.17
+
+- [x] 安装破解VISIO
+- [ ] 思考在大论文中须要做的试验，规划好时间，充分利用公司的GPU
+- [ ] 复习leetcode
+
+### 2020.06.16
+
+- [x] 小论文中GAN简述的撰写
+- [ ] 思考在大论文中须要做的试验，规划好时间，充分利用公司的GPU
+- [x] 阅读AttentionGAN论文
+- [x] 下载visio
+
+### 2020.06.15
+
+- [x] 搞明白AttentionGAN的一些训练参数
+- [x] 协助搭建docker环境与相应依赖包
+- [x] 标注测试集
+- [x] 输出坐标代码实现
+- [x] recall\acc评估代码实现
+
+### 2020.06.14
+
+- [x] 小论文框架、引言
+- [x] 剑指offer一题
+
+### 2020.06.11
+
+- [x] 专利书review
+- [x] 85-2253检测分类模型联调选取最优模型转PB
+- [x] 了解AttentionGAN，打通自动标注流程
+- [ ] 将标注与分割写进经历
+- [x] 调研自动标注文献->小论文思路转换异常检测
+
+### 2020.06.10
+
+- [x] 完善ADC专利
+- [x] 学会使用torch-summary
+- [x] 结合torch-summary的模型细节输出结果，用PPT画出模型结构图
+- [x] 继续维护Github的Repo，撰写README
+- [x] 缺陷分割后处理代码细节，梳理算法
+- [ ] 了解AttentionGAN，打通自动标注流程
+- [ ] 将标注与分割写进经历
+- [x] 修改简历、经历
+
+### 2020.06.09
+
+- [x] 完善ADC专利
+- [x] 补充数据finetune检测分类模型
+- [x] 缺陷自动标注后处理代码细节
+- [x] 维护Github的Repo，撰写README
+- [ ] 了解AttentionGAN，打通自动标注流程
+- [x] 刷题二题目
+
+### 2020.06.08
+
+- [x] 专利题目构思
+- [x] 专利撰写
+
+### 2020.06.05
+
+- [x] 缺陷分割matlab代码转python
+- [x] 搞明白分位数的概念和在缺陷分割中的应用
+
+### 2020.06.04
+
+- [x] 查看model_info接口打印出的YOLO模型是否与论文一致
+- [x] 缺陷自动标注matlab代码转python
+- [ ] 搞明白检测置信度阈值与mAP计算的关系
+- [ ] https://zhuanlan.zhihu.com/p/31558973:参数的显存占用
+- [ ] https://www.mathworks.com/help/images/understanding-morphological-reconstruction.html   Morphological  Reconstruction原理的理解,写进经历里面。
+
+### 2020.06.03
+
+- [x] 搞明白，yolo计算mAP的detec conf 设为多少
+- [x] 搞明白 yolo-u的layer怎么算的
+
+### 2020.06.02
+
+- [x] 从yolo_tcl_multi_cls的ap_per_class开始入手，看看这个函数是怎么处理pred_labels和labels的：ap_per_class函数的输入pred_labels只是为了遍历所有不同的类别！
+- [x] 再对get_batch_statistics作裁剪
+
+### 2020.06.01
+
+- [x] 看看YOLO_ULTRA怎么计算AP/MAP的
+- [x] 论文撰写摘要
 
 ### 2020.05.30
 
 - [x] 成功在自己的数据集上运行SSD
 - [x] 尝试用Yolov3原版训练一类缺陷
-- [ ] 和为s的连续正数序列,暴力法外的方法
-
-
+- [x] 初版小论文的想法！
+- [x] 和为s的连续正数序列,暴力法外的方法
 
 ### 2020.05.29
 
@@ -28,7 +129,7 @@
 
 - [x] YOLOV3原版进行ADC数据集的训练
 
-- [ ] #### 和为s的连续正数序列,暴力法外的方法
+- [x] #### 和为s的连续正数序列,暴力法外的方法
 
 ### 2020.05.28
 
@@ -105,8 +206,6 @@
 
 - [x] 杨工所给任务的思路整理
 - [x] PCB数据集数据增强
-
-
 
 ### 2020.05.15
 
